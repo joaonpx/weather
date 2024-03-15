@@ -1,6 +1,7 @@
 package br.com.fiap.weather.screens
 
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -35,16 +36,16 @@ fun HomeScreen(navController: NavController) {
     }
     Column(
         modifier = Modifier.fillMaxSize().padding(35.dp),
-        horizontalAlignment = Alignment.CenterHorizontally
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Center
     ) {
-        Spacer(modifier = Modifier.height(200.dp))
         Image(
             painter = painterResource(id = br.com.fiap.weather.R.drawable.baseline_cloud_24),
             contentDescription = "Logo"
         )
         Spacer(modifier = Modifier.height(60.dp))
         Text(
-            text = "Digite uma cidade para buscar o clima",
+            text = "Digite para buscar o clima",
             color = Color(0xFFF9FAFA),
             fontSize = 19.sp
         )
@@ -55,7 +56,7 @@ fun HomeScreen(navController: NavController) {
                 cityName = it
             },
             label = {
-                Text(text = "Nome da cidade", color = Color(0xFFF9FAFA))
+                Text(text = "País, estado, cidade", color = Color(0xFFF9FAFA))
             },
             modifier = Modifier.fillMaxWidth(),
             keyboardOptions = KeyboardOptions(

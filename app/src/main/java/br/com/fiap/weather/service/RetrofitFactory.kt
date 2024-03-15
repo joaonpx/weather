@@ -4,7 +4,6 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 class RetrofitFactory {
-
     private val URL = "https://goweather.herokuapp.com/weather/"
 
     private val retrofitFactory = Retrofit
@@ -16,5 +15,4 @@ class RetrofitFactory {
     fun getCityService(): CityService {
         return retrofitFactory.create(CityService::class.java)
     }
-
 }
