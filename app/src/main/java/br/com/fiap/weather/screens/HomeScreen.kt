@@ -73,7 +73,7 @@ fun HomeScreen(navController: NavController) {
         Spacer(modifier = Modifier.height(15.dp))
         Button(
             onClick = { navController.navigate("city/$cityName") },
-            colors = ButtonDefaults.buttonColors(contentColor = Color(0xFF198686), containerColor = Color(0xFFF9FAFA))
+            colors = ButtonDefaults.buttonColors(contentColor = Color(0xFF00BCD4), containerColor = Color(0xFFF9FAFA))
         ) {
             Text(text = "Buscar", fontSize = 16.sp)
         }

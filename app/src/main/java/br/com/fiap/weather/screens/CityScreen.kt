@@ -88,7 +88,7 @@ fun CityScreen(
         Button(
             onClick = { navController.navigate("home") },
             colors = ButtonDefaults.buttonColors(
-                contentColor = Color(0xFF198686),
+                contentColor = Color(0xFF00BCD4),
                 containerColor = Color(0xFFF9FAFA)
             ),
             modifier = Modifier.width(40.dp),
