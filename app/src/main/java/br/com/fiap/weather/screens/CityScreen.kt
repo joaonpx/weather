@@ -140,6 +140,10 @@ fun CityInfo(city: City) {
         "Rainny" -> city.description = "Chuva ⛈️"
         "Raining" -> city.description = "Chuva ⛈️"
         "Rain" -> city.description = "Chuva ⛈️"
+        "Heavy Rain" -> city.description = "Chuva forte ⛈️"
+        "Heavy rain with thunderstorm, fog" -> city.description = "Chuva forte com trovoadas ⛈️"
+        "Heavy rain with thunderstorm" -> city.description = "Chuva forte com trovoadas ⛈️"
+        "Heavy rain, fog" -> city.description = "Chuva forte ⛈️"
     }
 
     Column(
