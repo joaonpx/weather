@@ -8,9 +8,9 @@
 <br>
 
 <p align="center">
-  <img alt="preview" src="https://i.imgur.com/zQPDgDX.png" width="33%">
-  <img alt="preview" src="https://i.imgur.com/SZuJ6YB.png" width="33%">
-  <img alt="preview" src="https://i.imgur.com/IKkzhUL.png" width="33%">
+  <img alt="preview" src="https://i.imgur.com/zQPDgDX.png" width="20%">
+  <img alt="preview" src="https://i.imgur.com/SZuJ6YB.png" width="20%">
+  <img alt="preview" src="https://i.imgur.com/IKkzhUL.png" width="20%">
 </p>
 
 ## 💻 Projeto
